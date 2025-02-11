@@ -1,1 +1,1 @@
-https://usamakhanksa.github.io/usama.github.io/index.html
+https://usamakhanksa.github.io/usama/
