@@ -1,2 +1,1 @@
-# usama.github.io
-usama khan
+https://usamakhanksa.github.io/usama.github.io/index.html
