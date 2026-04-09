@@ -12,8 +12,8 @@ services:
 
   api:
     build:
-      context: ./src/API
-      dockerfile: Dockerfile
+      context: .
+      dockerfile: src/API/Dockerfile
     environment:
       ASPNETCORE_ENVIRONMENT: Development
       ConnectionStrings__DefaultConnection: server=mysql;database=saas_hrm;user=root;password=root
