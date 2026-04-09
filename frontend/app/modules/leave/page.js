@@ -12,4 +12,5 @@ export default function LeavePage() {
       </section>
     </main>
   );
+  return <div style={{ padding: 24 }}>Leave module shell.</div>;
 }

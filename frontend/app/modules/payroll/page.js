@@ -10,4 +10,5 @@ export default function PayrollPage() {
       </section>
     </main>
   );
+  return <div style={{ padding: 24 }}>Payroll module shell (multi-currency ready).</div>;
 }

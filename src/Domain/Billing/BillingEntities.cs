@@ -49,3 +49,6 @@ public class PaymentMethod : BaseEntity, IAuditableEntity, ITenantScoped, ISoftD
     public string Type { get; set; } = "card";
     public string Last4 { get; set; } = string.Empty;
 }
+    public decimal Amount { get; set; }
+    public string Status { get; set; } = "initiated";
+}

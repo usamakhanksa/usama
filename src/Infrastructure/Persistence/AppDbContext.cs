@@ -42,6 +42,9 @@ public class AppDbContext : DbContext
 
     public DbSet<Notification> Notifications => Set<Notification>();
     public DbSet<UserNotification> UserNotifications => Set<UserNotification>();
+    public DbSet<Payment> Payments => Set<Payment>();
+
+    public DbSet<Notification> Notifications => Set<Notification>();
     public DbSet<NotificationTemplate> NotificationTemplates => Set<NotificationTemplate>();
 
     public DbSet<Setting> Settings => Set<Setting>();
@@ -106,4 +109,9 @@ public class AppDbContext : DbContext
     public DbSet<ReviewCycle> ReviewCycles => Set<ReviewCycle>();
     public DbSet<Rating> Ratings => Set<Rating>();
     public DbSet<Feedback> Feedback => Set<Feedback>();
+    public DbSet<Employee> Employees => Set<Employee>();
+    public DbSet<AttendanceRecord> AttendanceRecords => Set<AttendanceRecord>();
+    public DbSet<LeaveRequest> LeaveRequests => Set<LeaveRequest>();
+    public DbSet<PayrollRun> PayrollRuns => Set<PayrollRun>();
+    public DbSet<Payslip> Payslips => Set<Payslip>();
 }
