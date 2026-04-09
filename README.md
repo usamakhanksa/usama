@@ -1,6 +1,7 @@
 # SaaS HRM Platform Foundation
 
 This repository includes a production-ready **foundation scaffold** for a multi-tenant SaaS HRM platform using Clean Architecture.
+This repository now includes a production-ready **foundation scaffold** for a multi-tenant SaaS HRM platform using Clean Architecture.
 
 ## Included
 - `SaaS-Platform-Architecture.md` — complete platform blueprint.
@@ -11,6 +12,8 @@ This repository includes a production-ready **foundation scaffold** for a multi-
 - `frontend` — Next.js modular shell with module routes.
 - `.github/workflows` — CI and deployment workflows for GitHub Actions.
 - `DEPLOYMENT.md` — full GitHub deployment playbook.
+- `src/API` — API bootstrap, middleware, versioning, health checks, and employee endpoints.
+- `frontend` — Next.js modular shell with module routes.
 
 ## Backend run (when .NET SDK is installed)
 ```bash
@@ -39,4 +42,6 @@ docker compose up --build
 - Full instructions: [`DEPLOYMENT.md`](./DEPLOYMENT.md)
 
 ## Architecture
+## Architecture
+https://usamakhanksa.github.io/usama/
 - [SaaS Platform Architecture](./SaaS-Platform-Architecture.md)
